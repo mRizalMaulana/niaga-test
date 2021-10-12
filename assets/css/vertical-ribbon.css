@@ -1,0 +1,33 @@
+.vertical-ribbon {
+    background: #0090ef;
+    height: 20px;
+    width: 40px;
+    position: relative;
+    text-align: center;
+    font: 600 16px sans-serif;
+    color: #fff;
+    line-height: 30px;
+    border: 0;
+}
+
+.vertical-ribbon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    z-index: -1;
+    left: 0;
+    height: 0;
+    width: 0;
+    border: solid 20px #0090ef;
+    border-bottom-color: transparent;
+}
+
+.vertical-ribbon-image {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+}
+
+.vertical-ribbon-message-text {
+    display: inline-block;
+}
